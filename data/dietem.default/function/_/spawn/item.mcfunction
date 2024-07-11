@@ -3,9 +3,9 @@
 # _/drop
 #--------------------
 
-execute store result storage dietem.default:var drop.item.x double .0001 run random value -4800..4800
+execute store result storage dietem.default:var drop.item.x double .0001 run random value -4000..4000
 execute store result storage dietem.default:var drop.item.y double .0001 run random value 2000..2300
-execute store result storage dietem.default:var drop.item.z double .0001 run random value -4800..4800
+execute store result storage dietem.default:var drop.item.z double .0001 run random value -4000..4000
 
 data modify storage dietem.default:var drop.item.item set from storage dietem:out filter_vanishing.result[-1]
 data remove storage dietem.default:var drop.item.item.Slot
