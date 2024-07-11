@@ -10,6 +10,6 @@ scoreboard players set *dietem.default load-status 1
 
 # scoreboards
 scoreboard objectives add -dietem.default dummy
-#(dirty)
 scoreboard objectives add --dietem.default dummy
-#scoreboard objectives add dietem.default-scoreboard dummy
+
+scoreboard players set *7 --dietem.default 7
